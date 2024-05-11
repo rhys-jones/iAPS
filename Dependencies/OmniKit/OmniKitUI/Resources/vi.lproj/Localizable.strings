@@ -147,7 +147,7 @@
 "Checking..." = "Đang kiểm tra...";
 
 /* Title for uncertainty recovered screen */
-"Comms Recovered" = "Comms Recovered";
+"Comms Recovered" = "Đã khôi phục được";
 
 /* Text for confidence reminders navigation link */
 "Confidence Reminders" = "Lời nhắc độ tin cậy";
@@ -535,10 +535,10 @@
 "Primed" = "Đã được mồi";
 
 /* Pairing action button accessibility label while priming */
-"Priming. Please wait." = "Đang priming. Xin chờ.";
+"Priming. Please wait." = "Đang mồi. Xin chờ.";
 
 /* Pod pairing action button text while priming */
-"Priming..." = "Priming...";
+"Priming..." = "Đang mồi...";
 
 /* The text of the loading label when priming */
 "Priming…" = "Đang mồi…";
@@ -622,6 +622,9 @@
 
 /* Button title to set temporary basal rate */
 "Set Temporary Basal Rate" = "Cài đặt liều nền tạm thời";
+
+/* Description text on manual temp basal action sheet */
+"Your insulin delivery will not be automatically adjusted until the temporary basal rate finishes or is canceled." = "Việc cung cấp insulin của bạn sẽ không được điều chỉnh tự động cho đến khi mức cơ bản tạm thời kết thúc hoặc bị hủy bỏ.";
 
 /* Title for setup complete screen */
 "Setup Complete" = "Cấu hình hoàn thành";
