@@ -117,7 +117,7 @@ extension LiveActivityAttributes.ContentState {
     }
 }
 
-@available(iOS 16.2, *) private struct ActiveActivity {
+private struct ActiveActivity {
     let activity: Activity<LiveActivityAttributes>
     let startDate: Date
 
@@ -137,7 +137,7 @@ extension LiveActivityAttributes.ContentState {
     }
 }
 
-@available(iOS 16.2, *) final class LiveActivityBridge: Injectable, ObservableObject, SettingsObserver {
+final class LiveActivityBridge: Injectable, ObservableObject, SettingsObserver {
     @Injected() private var settingsManager: SettingsManager!
     @Injected() private var storage: FileStorage!
     @Injected() private var broadcaster: Broadcaster!
@@ -263,12 +263,12 @@ extension LiveActivityAttributes.ContentState {
                         )
                         return ActivityContent(
                             state: state.withoutPredictions(),
-                            staleDate: min(state.date, Date.now).addingTimeInterval(TimeInterval(8 * 60))
+                            staleDate: min(state.date, Date.now).addingTimeInterval(TimeInterval(12 * 60))
                         )
                     } else {
                         return ActivityContent(
                             state: state,
-                            staleDate: min(state.date, Date.now).addingTimeInterval(TimeInterval(8 * 60))
+                            staleDate: min(state.date, Date.now).addingTimeInterval(TimeInterval(12 * 60))
                         )
                     }
                 }()
@@ -329,7 +329,6 @@ extension LiveActivityAttributes.ContentState {
     }
 }
 
-@available(iOS 16.2, *)
 extension LiveActivityBridge: SuggestionObserver, EnactedSuggestionObserver {
     func enactedSuggestionDidUpdate(_ suggestion: Suggestion) {
         let settings = self.settings
