@@ -16,6 +16,15 @@
 /* Continue after added carbs without bolus */
 "Continue without bolus" = "Continue without bolus";
 
+/* History View */
+"No data." = "No data.";
+
+/* Bolus View */
+"No Predictions. Failed loop suggestion." = "No Predictions. Failed loop suggestion.";
+
+/* Bolus View */
+"Missing Glucose" = "Missing Glucose"; 
+
 /* Continue after added meal without bolus */
 "Save Meal without bolus" = "Save Meal without bolus";
 
@@ -2021,10 +2030,16 @@ Enact a temp Basal or a temp target */
 "2 hours" = "2 hours";
 
 /* */
+"3 hours" = "3 hours";
+
+/* */
 "4 hours" = "4 hours";
 
 /* */
 "6 hours" = "6 hours";
+
+/* */
+"9 hours" = "9 hours";
 
 /* */
 "12 hours" = "12 hours";
@@ -2983,6 +2998,9 @@ Enact a temp Basal or a temp target */
 
 /* Settings Section */
 "Extra Features" = "Extra Features";
+
+/* Header */
+"UI/UX Settings" = "UI/UX Settings";
 
 /* UI/UX option */
 "Display Predictions" = "Display Predictions";
