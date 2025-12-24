@@ -338,7 +338,7 @@
 "Schedule" = "Lịch trình";
 
 /* */
-"(standard units / hour)" = "(tiêu chuẩn units / hour)";
+"(standard units / hour)" = "(tiêu chuẩn đơn vị/giờ)";
 
 /*  */
 "starts at" = "bắt đầu lúc";
@@ -1391,6 +1391,11 @@ Enact a temp Basal or a temp target */
 
 // --------- AI ---------
 /* */
+
+"AI Image Analysis" = "Phân tích hình ảnh bằng AI";
+
+"Barcode" = "Mã vạch";
+
 "📝 Notes" = "📝 Ghi chú";
 
 /* */
@@ -1711,6 +1716,10 @@ Enact a temp Basal or a temp target */
 "💾 Caching analysis result..." = "💾 Kết quả phân tích bộ nhớ đệm...";
 
 "⏳ Doing a deep analysis (may take a bit)..." = "⏳ Đang phân tích chi tiết (có thể mất một chút thời gian)...";
+
+"🎯 Selecting optimal AI provider..." = "🎯 Đang chọn nhà cung cấp AI tối ưu...";
+
+"⚡ Starting parallel provider analysis..." = "⚡ Bắt đầu phân tích song song các nhà cung cấp...";
 
 "Amount:" = "Số lượng:";
 
@@ -2393,13 +2402,13 @@ Enact a temp Basal or a temp target */
 "Change HbA1c Unit" = "Thay đổi đơn vị của HbA1c";
 
 /* */
-"Display Chart X - Grid lines" = "Hiển thị biểu đồ trục X";
+"Vertical grid lines" = "Đường lưới dọc";
 
 /* */
-"Display Chart Y - Grid lines" = "Hiển thị biểu đồ trục Y";
+"Horizontal grid lines" = "Đường lưới ngang";
 
 /* */
-"Display Chart Threshold lines for Low and High" = "Hiển thị đường giới hạn Thấp và Cao";
+"Threshold lines (Low / High)" = "Đường giới hạn (Thấp / Cao)";
 
 /* */
 "Standing / Laying TIR Chart" = "Biểu đồ TIR Đứng/Nằm";
@@ -2565,6 +2574,9 @@ Enact a temp Basal or a temp target */
 
 /* UI/UX-setting */
 "Display Insulin Activity Chart" = "Hiển thị biểu đồ hoạt động của insulin";
+
+/* UI/UX-setting */
+"Don't ask for saving search result as meal preset" = "Không yêu cầu lưu kết quả tìm kiếm làm bữa ăn mẫu";
 
 /* --------------------------------------------------------  Dexcom G7 --------------------------------------*/
 
@@ -2758,7 +2770,7 @@ Enact a temp Basal or a temp target */
 "RegularFontWeight" = "Regular";
 
 /* Contact Image, settings, medium font weight */
-"MediumFontWeight" = "Medium";
+"MediumFontWeight" = "Trung bình";
 
 /* Contact Image, settings, semibold font weight */
 "SemiboldFontWeight" = "Semibold";
@@ -3495,7 +3507,7 @@ Enact a temp Basal or a temp target */
 "Neglect Carbohydrates in oref0" = "Bỏ qua carbohydrate trong oref0";
 
 /* Debug option */
-"Hide oref0 Predictions" = "Ẩn dự đoán của oref0";
+"Hide Predictions" = "Ẩn dự đoán";
 
 /* Setting title */
 "Bolus Calculator" = "Tính toán liều Bolus";
@@ -3641,3 +3653,33 @@ Enact a temp Basal or a temp target */
 
 /* 'fetch' scection footer in nightscout settings */
 "iAPS will fetch announcements, carbs and temp targets from Nightscout" = "iAPS sẽ lấy thông báo, lượng carbs và mục tiêu tạm thời từ Nightscout";
+
+/* main chart settings - toggle, controls whether to draw the in-range area backdrop (fill) */
+"In-range area highlight" = "Vùng trong phạm vi được đánh dấu";
+
+/* main chart settings - toggle, controls whether to show inline BG peaks */
+"Glucose peaks" = "Đỉnh đường huyết";
+
+/* main chart settings - toggle, controls whether to show the predictions legend */
+"Predictions legend" = "Chú thích dự đoán";
+
+/* main chart settings - toggle, controls whether to draw the secondary chart backdrop (fill) */
+"Secondary chart backdrop" = "Hình nền biểu đồ phụ";
+
+/* main chart settings - toggle, controls whether to show insulin activity grid lines */
+"Insulin activity grid lines" = "Đường lưới hoạt động insulin";
+
+/* main chart settings - toggle, controls whether to show insulin activity axis labels */
+"Insulin activity labels" = "Nhãn hoạt động insulin";
+
+/* main chart settings - secondary chart section header */
+"Secondary chart" = "Biểu đồ phụ";
+
+/* main chart settings - navigation title and the navigation link label */
+"Main Chart settings" = "Cài đặt biểu đồ chính";
+
+/* UI/UX settings - main chart section header */
+"Main Chart" = "Biểu đồ chính";
+
+/* main chart settings - toggle, controls whether to show y-axis labels (glucose) */
+"Y-axis labels" = "Nhãn trục Y";
